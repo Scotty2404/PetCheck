@@ -19,7 +19,7 @@ import { reminderReducer } from './core/store/reminders/reminders.reducer';
 import { reminderEffects } from './core/store/reminders/reminder.effects';
 import { getMessaging, provideMessaging } from '@angular/fire/messaging';
 
-import { environment } from '../environtment';
+import { environment } from '../environment';
 
 export const appConfig: ApplicationConfig = {
   providers: [

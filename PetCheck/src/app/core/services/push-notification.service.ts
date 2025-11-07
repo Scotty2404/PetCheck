@@ -2,7 +2,7 @@ import { inject, Injectable } from "@angular/core";
 import { Auth } from "@angular/fire/auth";
 import { doc, Firestore, setDoc} from "@angular/fire/firestore";
 import { getToken, Messaging, onMessage, deleteToken } from "@angular/fire/messaging";
-import { environment } from '../../../environtment';
+import { environment } from '../../../environment';
 
 @Injectable({ providedIn: 'root'})
 export class PushNotificationService {
