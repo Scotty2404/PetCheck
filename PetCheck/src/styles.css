@@ -15,12 +15,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 .cal-month-view .cal-day-cell {
-    min-height: 8vh !important;
-    max-height: 10vh;
+    min-height: 7vh !important;
+    max-height: 9vh;
 }
 
 .cal-month-view .cal-cell-top {
-    min-height: 5vh;
+    min-height: 4vh;
 }
 
 .cal-month-view .cal-day-badge {

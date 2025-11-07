@@ -2,6 +2,7 @@ import { inject, Injectable } from "@angular/core";
 import { Auth } from "@angular/fire/auth";
 import { doc, Firestore, setDoc} from "@angular/fire/firestore";
 import { getToken, Messaging, onMessage, deleteToken } from "@angular/fire/messaging";
+import { environment } from '../../../environtment';
 
 @Injectable({ providedIn: 'root'})
 export class PushNotificationService {
@@ -9,7 +10,7 @@ export class PushNotificationService {
     private firestore = inject(Firestore);
     private auth = inject(Auth);
 
-    private vapidKey = 'BPZ5Uf3I_ZNqJ6YvXNiBvju9rXJUTn5MFkDLwQCF0cPG2uJ6ZusWmV6tae0A8U8jRjpnmIJQevCsh7Ui6CQYe8Q';
+    private vapidKey = environment.vapidKey;
 
     private onMessageUnsub?: () => void;
 

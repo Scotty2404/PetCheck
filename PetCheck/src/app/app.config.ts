@@ -19,14 +19,7 @@ import { reminderReducer } from './core/store/reminders/reminders.reducer';
 import { reminderEffects } from './core/store/reminders/reminder.effects';
 import { getMessaging, provideMessaging } from '@angular/fire/messaging';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBLb6gK4thvmfCdEvaOqaxNrlo-ruOZV9o",
-  authDomain: "petcheck-c6543.firebaseapp.com",
-  projectId: "petcheck-c6543",
-  storageBucket: "petcheck-c6543.firebasestorage.app",
-  messagingSenderId: "370355042235",
-  appId: "1:370355042235:web:4e6ed52bd4b5ac8e39f69e"
-};
+import { environment } from '../environtment';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -43,7 +36,7 @@ export const appConfig: ApplicationConfig = {
       reminders: reminderReducer,
     }), 
     provideEffects([AuthEffects, PetEffects, UserEffects, reminderEffects]),
-    provideFirebaseApp(() => initializeApp(firebaseConfig)),
+    provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
     provideAuth(() => getAuth()),
     provideFirestore(() => {
       const firestore = getFirestore();

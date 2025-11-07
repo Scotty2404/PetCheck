@@ -2,13 +2,13 @@ import admin from "firebase-admin";
 import cron from "node-cron";
 
 admin.initializeApp({
-    credential: admin.credential.cert("./serviceAccountKeay.json"),
+    credential: admin.credential.cert("./serviceAccountKey.json"),
 });
 
 const db = admin.firestore();
 const messaging = admin.messaging();
 
-const TEST_TOKEN = "c0tBAijqMCF6tXwdXQrRRC:APA91bE0zTePd46oBlvq6VNI6Gy6dmrRKa3cECiQ271lToOPl6tLsy_ZjLPlV2vLNHYtPvpKRLzPgU3CqL2rZc3Cxq221vM9x6Q9-K9EQIWwDfMZo2C7YZU";
+const TEST_TOKEN = "";
 async function sendTestNotification() {
     if(!TEST_TOKEN) {
         console.error('No test token provided');
