@@ -1,0 +1,97 @@
+{
+  "configVersion": 1,
+  "timestamp": 1762514581162,
+  "index": "/PetCheck/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/PetCheck/chunk-2GY5EQAC.js",
+        "/PetCheck/chunk-37JGKMDG.js",
+        "/PetCheck/chunk-IIY5A7E3.js",
+        "/PetCheck/chunk-IUAO776Q.js",
+        "/PetCheck/chunk-N4R2D4AS.js",
+        "/PetCheck/chunk-QHXVKW2R.js",
+        "/PetCheck/chunk-TIK4CJX7.js",
+        "/PetCheck/chunk-VTGFZXAA.js",
+        "/PetCheck/favicon.ico",
+        "/PetCheck/firebase-messaging-sw.js",
+        "/PetCheck/index.html",
+        "/PetCheck/main-EL427WBQ.js",
+        "/PetCheck/manifest.webmanifest",
+        "/PetCheck/polyfills-5CFQRCPP.js",
+        "/PetCheck/styles-RCXR7WLO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/PetCheck/icons/icon-128x128.png",
+        "/PetCheck/icons/icon-144x144.png",
+        "/PetCheck/icons/icon-152x152.png",
+        "/PetCheck/icons/icon-192x192.png",
+        "/PetCheck/icons/icon-384x384.png",
+        "/PetCheck/icons/icon-512x512.png",
+        "/PetCheck/icons/icon-72x72.png",
+        "/PetCheck/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/PetCheck/chunk-2GY5EQAC.js": "e8d3cc0368ea3d21b3b277491d102411a1c4f256",
+    "/PetCheck/chunk-37JGKMDG.js": "40dc3efba8f7aa3c37adecd80c3c5c4fc59f2034",
+    "/PetCheck/chunk-IIY5A7E3.js": "11e7464a084726b9a410a13ab7bc046a85d07c7f",
+    "/PetCheck/chunk-IUAO776Q.js": "162b096c77681bd34439041357f9e728e39a1bbe",
+    "/PetCheck/chunk-N4R2D4AS.js": "fb458038beb607bd59ae1867125eddf2720c6251",
+    "/PetCheck/chunk-QHXVKW2R.js": "ba9548b5883cb07d9261dc6a16bd0f0049ce1a6b",
+    "/PetCheck/chunk-TIK4CJX7.js": "5d9cdc2ee52f2c965e14e1cfeb45e1100cc5a33e",
+    "/PetCheck/chunk-VTGFZXAA.js": "e572fd44d8d0cb813eeb21c812a70da418cc57e8",
+    "/PetCheck/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/PetCheck/firebase-messaging-sw.js": "b3553ffc3058cf35ee7c9782fe80be80729d8dc7",
+    "/PetCheck/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/PetCheck/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/PetCheck/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/PetCheck/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/PetCheck/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/PetCheck/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/PetCheck/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/PetCheck/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/PetCheck/index.html": "71fe6ebccecfdd4537586cfa45ddb713325d2ac4",
+    "/PetCheck/main-EL427WBQ.js": "7707c3302fa0a824e53de78758855dc26b5ef810",
+    "/PetCheck/manifest.webmanifest": "a094d109b5a0d8462dccab498dacb13ce6446acd",
+    "/PetCheck/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
+    "/PetCheck/styles-RCXR7WLO.css": "1e80377ad9583e69e34a7f6762e245388a370da2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
